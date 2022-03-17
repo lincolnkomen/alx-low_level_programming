@@ -1,11 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_times_table - Prints the n times table
+ * print_times_table - print times tables
  *
- * @n: number times table (0 < n <= 15)
+ * @n: number times table ( 0 < n <= 15)
  *
- * Return: no return
+ * Return: None.
  */
 void print_times_table(int n)
 {
@@ -44,3 +44,4 @@ void print_times_table(int n)
 		}
 	}
 }
+
