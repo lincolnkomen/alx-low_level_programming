@@ -1,25 +1,26 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_last_digit - prints last digit
+ * print_last_digit - Prints the last digit
+ * of a number.
  *
- * @i: digit to be tested
+ * @n: input number as an integer.
  *
- * Return: Value of the digit.
+ * Return: last digit.
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
-	int m;
+	int l;
 
-	m = i % 10;
-	if (m < 0)
+	l = n % 10;
+	if (l < 0)
 	{
-		_putchar(-m + 48);
-		return (-m);
+		_putchar(-l + 48);
+		return (-l);
 	}
 	else
 	{
-		_putchar(m + 48);
-		return (m);
+		_putchar(l + 48);
+		return (l);
 	}
 }

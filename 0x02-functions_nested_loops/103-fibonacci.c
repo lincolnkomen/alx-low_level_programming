@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the sum of even fibonaccis
+ * main - Prints the add of the even-valued
+ * fibonacci numbers.
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {

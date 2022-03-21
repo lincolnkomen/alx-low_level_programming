@@ -1,9 +1,9 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * jack_bauer - prints every minute of 24
+ * jack_bauer - Prints the minutes of a day
  *
- * Return: Probably 0.
+ * Return: no return
  */
 void jack_bauer(void)
 {
