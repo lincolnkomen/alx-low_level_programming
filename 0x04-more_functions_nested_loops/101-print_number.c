@@ -1,10 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_number - prints an integer.
- * @n: input integer.
- * Return: no return.
+ * print_number - prints number put in.
+ * @n: number input
+ * Return: Nothing.
  */
+
 void print_number(int n)
 {
 	unsigned int m, d, count;

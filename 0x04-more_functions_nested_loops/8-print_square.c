@@ -1,10 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_square - prints hashes squares.
- * @size: size of the square.
- * Return: no return.
+ * print_square - print a hash square
+ * @size: square side size
+ * Return: nothing
  */
+
 void print_square(int size)
 {
 	int i, j;

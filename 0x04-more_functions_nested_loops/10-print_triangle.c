@@ -1,10 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_triangle - prints a triangle.
- * @size: numbers of lines.
- * Return: no return.
+ * @size: number of lines.
+ * Return: nothing
  */
+
 void print_triangle(int size)
 {
 	int i, j;

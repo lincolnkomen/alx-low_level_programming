@@ -1,10 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_diagonal - prints diagonal line n times.
- * @n: times diagonal line is printed.
- * Return: no return.
+ * print_diagonal - prints a diagonal
+ * @n: size of diagonal
+ * Return: nothing
  */
+
 void print_diagonal(int n)
 {
 	int i, j;

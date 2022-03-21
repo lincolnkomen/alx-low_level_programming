@@ -1,10 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _isdigit - checks if parameter is a number between 0 to 9.
- * @c: input number.
- * Return: 1 if is a number (0 to 9), 0 in other case.
+ * _isdigit - determines whether it's a digit or not
+ * @c: input character
+ * Return: 1 if it's a digit, 0 if not.
  */
+
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
