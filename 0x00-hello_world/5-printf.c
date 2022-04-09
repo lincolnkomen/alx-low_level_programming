@@ -2,10 +2,10 @@
 /**
  * main is the program entry point
  *
- * return : 0 to exit the main function
+ * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-	printf("with proper grammar, but the outcome is a piece of art,/n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
