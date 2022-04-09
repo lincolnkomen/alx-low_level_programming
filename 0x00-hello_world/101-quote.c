@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	const char quest[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-9\n";
+	const char quest[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	syscall(SYS_write, 1, quest, sizeof(quest));
 	return 1;
 }
