@@ -1,11 +1,11 @@
-#include<stdio.h>
+# include <stdio.h>
 /**
- * main - Entry point
+ * main is the program entry point
  *
- * Return: Always 0 (Success)
+ * return : 0 to exit the main function
  */
-int main(void)
+int main ()
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+	printf ("\ "with proper grammar, but the outcome is a piece of art,");
+	return (0)
 }
