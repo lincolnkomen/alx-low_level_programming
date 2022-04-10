@@ -1,18 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *  main - main block
- *  Description: program that prints the alphabet in lowercase, followed by a new line
- *  Return: 0
+ * main - Determines if a number is positive, negative or zero.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-
-	for (i = 0; i < 26; i++)
+	char q = 'a';
+	while (q <= 'z')
 	{
-		putchar(alp[i]);
+		putchar(q);
+		q++;
 	}
 	putchar('\n');
 	return (0);
