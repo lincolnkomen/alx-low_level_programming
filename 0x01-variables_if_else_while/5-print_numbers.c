@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
  * Description: Program that prints single digits numbers of base 10 starting from 0
@@ -7,14 +6,11 @@
  */
 int main(void)
 {
-	char i = '0';
-
-	while (i <= '10')
+	int i;
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
-		i++;
+		printf("%d", i);
 	}
-
 	putchar('\n');
 	return (0);
 }
