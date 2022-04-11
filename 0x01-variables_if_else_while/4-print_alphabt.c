@@ -4,13 +4,13 @@
  * Description: Print all letters except q and e
  * Return: 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char g = 'a';
 
-	while(g <= 'z')
+	while (g <= 'z')
 	{
-		if(g != 'q' && g != 'e')
+		if (g != 'q' && g != 'e')
 		{
 			putchar(g);
 		}
