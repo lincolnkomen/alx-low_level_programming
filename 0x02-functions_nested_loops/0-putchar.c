@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print putchar
  *
@@ -6,12 +7,12 @@
  */
 int main(void)
 {
-	char j[8] = "_putchar";
+	char txt[8] = "_putchar";
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-		putchar(j[i]);
+		putchar(txt[i]);
 	}
 	putchar('\n');
 	return (0);
