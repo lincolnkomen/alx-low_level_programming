@@ -1,4 +1,5 @@
-#include <seft.h>
+#include "alxaf.h"
+
 /**
  * print_alphabet_x10 - Prints the alphabet 10 times.
  *
@@ -6,17 +7,14 @@
  */
 void print_alphabet_x10(void)
 {
-    int i, j = '0';
+	int a, b;
 
-    while(j < 10)
-    {
-        i = 'a';
-        while(i <= 'z')
-        {
-            putchar(i);
-            i++;
-        }
-        putchar("\n");
-        j++;
-    }
+	for (a = 0; a <= 9; a++)
+	{
+		for (b = 97; b <= 122; b++)
+		{
+			_putchar(b);
+		}
+	_putchar('\n');
+	}
 }
