@@ -7,5 +7,7 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
-	return(0);}
+	const char putchar_[] = "putchar_";
+	syscall(SYS_write, 1, putchar_, sizeof(putchar_));
+	return (0);
+}
