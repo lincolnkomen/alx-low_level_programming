@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <sys/syscall.h>
 /**
  * main - print putchar
  *
@@ -8,7 +6,13 @@
  */
 int main(void)
 {
-	const char putchar_[] = "putchar_";
-	syscall(SYS_write, 1, putchar_, sizeof(putchar_));
+	char j[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		putchar(j[i]);
+	}
+	putchar('\n');
 	return (0);
 }
