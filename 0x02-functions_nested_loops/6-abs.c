@@ -1,6 +1,7 @@
 /**
- * _abs - gives absolute value of an integer.
+ * _abs - gives absolute value
  * @i: Input number
+ * int: Betty forced me
  *
  * Return: absolute value.
  */
