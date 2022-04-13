@@ -1,3 +1,11 @@
+/**
+ * _abs - Computes the absolute value
+ * of an integer.
+ *
+ * @i: input number as an integer.
+ *
+ * Return: absolute value
+ */
 int _abs(int);
 
 int _abs(int i)
@@ -8,6 +16,6 @@ int _abs(int i)
 	}
 	else
 	{
-		return (i * -1);
+		return (i * -(i));
 	}
 }
