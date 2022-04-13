@@ -1,7 +1,8 @@
 /**
- * _abs - return abs value
- * @n : number to check
- * Return:0 or 1
+ * _abs - gives absolute value of an integer.
+ * @i: Input number
+ *
+ * Return: absolute value.
  */
 int _abs(int);
 
