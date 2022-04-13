@@ -1,10 +1,7 @@
 /**
- * _abs - Computes the absolute value
- * of an integer.
- *
- * @i: input number as an integer.
- *
- * Return: absolute value
+ * _abs - return abs value
+ * @n : number to check
+ * Return:0 or 1
  */
 int _abs(int);
 
