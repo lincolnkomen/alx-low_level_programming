@@ -9,8 +9,5 @@
 
 int mul(int a, int b)
 {
-	a = 50;
-	b = 10;
-
 	return (a * b);
 }
