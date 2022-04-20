@@ -9,7 +9,7 @@ void print_numbers(void)
 {
 	int c;
 
-	while (c = 0 && c <= 9)
+	while (c = 48 && c <= 57)
 	{
 		_putchar(c);
 		c++;
