@@ -8,9 +8,9 @@
 
 void print_line(int n)
 {
-	char c;
+	int c = 0;
 
-	for (c = 0; c < n; c++)
+	for (c < n; n > 0; c++)
 	{
 		_putchar(95);
 	}
