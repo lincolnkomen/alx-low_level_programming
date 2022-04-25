@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	int j;
+	int i;
 
-	j = 1;
-	printf("%d", j);
-	for (j = 2; j <= 100; j++)
+	i = 1;
+	printf("%d", i);
+	for (i = 2; i <= 100; i++)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
@@ -21,9 +21,15 @@ int main(void)
 		{
 			printf(" Fizz");
 		}
+		else if (i % 5 == 0)
+		{
+			printf(" Buzz")
+		}
 		else
 		{
 			printf(" %d", i);
 		}
 	}
+	putchar('\n');
+	return (0);
 }
